@@ -1,0 +1,121 @@
+@import url("profil/banner.css");
+
+body {
+	background-color: #F5F9F0;
+	border: solid 5px #8A1C1C;
+
+}
+
+h1 {
+	color: whitesmoke;
+	background-color: #3A5589;
+	font-family: serif;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 5px;
+	border-radius: 12px;
+	padding-left: 50px;
+	padding-top : 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: whitesmoke;
+	background-color: #7088B8;
+	border-radius: 12px;
+	margin: 30px;
+	padding-left: 30px;
+}
+
+h3 {
+	margin:  30px;
+}
+
+p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+a {
+	font-family: 'Amatic SC', cursive;
+	text-decoration: none;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+li {
+	list-style: none;
+	font-size: 20px;
+	display: inline;
+	margin: 5px;
+}
+
+div {
+	width: 600px;
+	background-color: #D0D8E7;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px #C7C9B2;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom:  20 px;
+	margin-top: 20px;
+
+}
+
+/*custom design*/
+
+/*classe*/
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #F5F9F0;
+	box-shadow: none;
+}
+
+.card-blue{
+	background-color: white;
+	padding: 10px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 20px #C7C9B2;
+	border-radius: 6px;
+	text-align: center;
+}
+
+
+.btn-blue {
+	background-color: darkcyan;
+	color: whitesmoke;
+	padding: 10px;
+	border-radius: 6px;
+	border: solid 2px white;
+}
+
+.btn-blue:hover {
+	border: #3A3983;
+	color: #3A3983;
+	background-color: white;
+	transition: 0.5s;
+}
+
+/*id*/
+
+#btn-red {
+	background-color: #32315E;
+}
+
+#card-img{
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%); url ("")
+}
+
+/*media queries*/
+@media (max-width:  720px) {
+	.container{
+		background-color: blue;
+	}
+}
